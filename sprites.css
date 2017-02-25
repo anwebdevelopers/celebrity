@@ -1,0 +1,82 @@
+.icon-diamond, .program-6, .scroll-gray, .scroll-yellow, .tilda, .timepad, .icon-lamp, .icon-star, .program-1, .program-2, .program-3, .program-4, .program-5{
+	background: url(sprites.png) no-repeat;
+}
+
+.icon-diamond{
+	background-position: -8.02252197265625px -16.994537353515625px ;
+	width: 67px;
+	height: 65px;
+}
+
+.program-6{
+	background-position: -290.001708984375px 0;
+	width: 123px;
+	height: 90px;
+}
+
+.scroll-gray{
+	background-position: -369.99566650390625px -229.99172973632812px ;
+	width: 22px;
+	height: 66px;
+}
+
+.scroll-yellow{
+	background-position: -413.00390625px -229.98629760742188px ;
+	width: 22px;
+	height: 66px;
+}
+
+.tilda{
+	background-position: -386.0133056640625px -201.00881958007812px ;
+	width: 30px;
+	height: 8px;
+}
+
+.timepad{
+	background-position: -121.995849609375px -229.99850463867188px ;
+	width: 226px;
+	height: 58px;
+}
+
+.icon-lamp{
+	background-position: -93.9735107421875px -17.96075439453125px ;
+	width: 58px;
+	height: 67px;
+}
+
+.icon-star{
+	background-position: -178.984375px -17.990234375px ;
+	width: 69px;
+	height: 69px;
+}
+
+.program-1{
+	background-position: -5.00616455078125px -210.00338745117188px ;
+	width: 106px;
+	height: 104px;
+}
+
+.program-2{
+	background-position: -355.9931640625px -113.99472045898438px ;
+	width: 97px;
+	height: 69px;
+}
+
+.program-3{
+	background-position: -215.0078125px -108.99380493164062px ;
+	width: 100px;
+	height: 93px;
+}
+
+.program-4{
+	background-position: 0 -101.00787353515625px ;
+	width: 87px;
+	height: 98px;
+}
+
+.program-5{
+	background-position: -121.0059814453125px -107.98345947265625px ;
+	width: 66px;
+	height: 98px;
+}
+

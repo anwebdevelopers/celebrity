@@ -1,0 +1,35 @@
+.facilities {
+	padding: 200px 0;
+	background-color: #555;
+	background-image: url('../img/facilities-bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.facilities__wrapper {
+	@extend .container;
+	@extend .clearfix;
+}
+.facilities__title {
+	float: left;
+	max-width: 500px;
+	h2 {
+		margin: 0;
+		font-size: 45px;
+		letter-spacing: 6px;
+		color: $main-color;
+		line-height: 1.6;
+	}
+}
+.facilities__box {
+	float: right;
+	max-width: 500px;
+	padding: 50px;
+	border: 2px solid $main-color;
+}
+.facilities__box-text {
+	font-size: 32px;
+	margin: 0 0 50px 0;
+	p {
+		margin: 0;
+	}
+}

@@ -1,0 +1,139 @@
+.about-speak {
+	position: relative;
+
+	background-color: #000;
+	background-image: url('../img/about-speak-bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.about-speak__wrapper {
+	@extend .container;
+	padding: 80px 0;
+}
+.about-speak__title {
+	margin: 0 0 75px 0;
+	text-align: center;
+	h2 {
+		margin: 0;
+		font-size: 45px;
+		letter-spacing: 6px;
+		color: $main-color;
+	}
+}
+.about-speak__slider {
+	width: 1280px;
+	margin: 0 auto 120px auto;
+	box-shadow: 0 30px 80px 0 transparentize($main-color, .5);
+}
+.about-speak__slider {
+	.owl-dots {
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: -120px;
+		text-align: center;
+		.owl-dot {
+			position: relative;
+			display: inline-block;
+			vertical-align: top;
+			margin: 0 15px;
+			width: 20px;
+			height: 20px;
+			border: 2px solid $main-color;
+			border-radius: 50%;
+			transition: transform .3s ease, background-color .3s ease;
+			&:before {
+				position: relative;
+				top: -3px;
+				width: 20px;
+				height: 20px;
+				font-size: 18px;
+				line-height: 16px;
+			}
+		}
+		.owl-dot.active {
+			background-color: $main-color;
+			transform: scale(1.3);
+			font-weight: 600;
+		}
+		.owl-dot:nth-child(1) {
+			&:before {
+				content: '1';
+			}
+		}
+		.owl-dot:nth-child(2) {
+			&:before {
+				content: '2';
+			}
+		}
+		.owl-dot:nth-child(3) {
+			&:before {
+				content: '3';
+			}
+		}
+		.owl-dot:nth-child(4) {
+			&:before {
+				content: '4';
+			}
+		}
+		.owl-dot:nth-child(5) {
+			&:before {
+				content: '5';
+			}
+		}
+		.owl-dot:nth-child(6) {
+			&:before {
+				content: '6';
+			}
+		}
+		.owl-dot:nth-child(7) {
+			&:before {
+				content: '7';
+			}
+		}
+		.owl-dot:nth-child(8) {
+			&:before {
+				content: '8';
+			}
+		}								
+	}
+}
+.about-speak__slider-item {
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
+.about-speak__slider-buttons {
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 0;
+	right: 0;
+}
+.about-speak__slider-button-left,
+.about-speak__slider-button-right {
+	width: 60px;
+	height: 60px;
+	border: 2px solid $main-color;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 64px;
+	font-size: 36px;
+	cursor: pointer;
+	transition: color .5s ease, border-color .5s ease;
+	&:hover, &:active, &:focus {
+		color: $main-color;
+		border-color: #fff;
+	}
+}
+.about-speak__slider-button-left {
+	position: absolute;
+	top: 0;
+	left: 3%;
+}
+.about-speak__slider-button-right {
+	position: absolute;
+	top: 0;
+	right: 3%;
+}

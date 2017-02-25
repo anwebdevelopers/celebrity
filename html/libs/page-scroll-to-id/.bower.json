@@ -1,0 +1,49 @@
+{
+  "name": "page-scroll-to-id",
+  "version": "1.5.4",
+  "title": "Page scroll to id",
+  "description": "Easy-to-use jQuery plugin that enables animated page scrolling to specific id within the document. The plugin replaces the default browser behaviour of jumping to page sections when links with href value containing hash are clicked, by smoothly animating the page to those sections.",
+  "main": "./jquery.malihu.PageScroll2id.js",
+  "keywords": [
+    "jquery",
+    "page scrolling",
+    "page animation",
+    "navigation",
+    "single-page navigation"
+  ],
+  "homepage": "http://manos.malihu.gr/page-scroll-to-id/",
+  "author": {
+    "name": "malihu",
+    "url": "http://manos.malihu.gr"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/malihu/page-scroll-to-id.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": ">=1.6"
+  },
+  "ignore": [
+    "*.md",
+    "*.txt",
+    "*.json",
+    "/js",
+    "/examples"
+  ],
+  "_release": "1.5.4",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.5.4",
+    "commit": "957a3e49eb359e107c63b5a535637c2f182c3e73"
+  },
+  "_source": "https://github.com/malihu/page-scroll-to-id.git",
+  "_target": "^1.5.4",
+  "_originalSource": "page-scroll-to-id",
+  "_direct": true
+}

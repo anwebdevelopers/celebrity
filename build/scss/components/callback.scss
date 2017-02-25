@@ -1,0 +1,50 @@
+.callback__form {
+	position: relative;
+	z-index: 10;
+	max-width: 700px;
+	margin: 0 auto;
+	padding: 40px;
+	border: 2px solid $main-color;
+	text-align: center;
+	color: #111;
+	background-color: #fff;
+	
+	h2 {
+		margin: 10px 0 40px 0;
+		font-size: 45px;
+		letter-spacing: 6px;
+		color: #888;
+		span {
+			display: block;
+			margin: 10px 0 0 0;
+			letter-spacing: 6px;
+			color: $main-color;
+		}
+	}
+	input[type="text"], input[type="email"] {
+		display: inline-block;
+		vertical-align: top;
+		width: 274px;
+		height: 50px;
+		margin: 10px 5px;
+		outline: none;
+		border: 2px solid #888;
+		text-indent: 10px;
+		transition: border 0.5s ease;
+		box-shadow: none;
+		font-size: 18px;
+		text-transform: uppercase;
+		&:hover, &:focus {
+			border: 2px solid $main-color;
+		}
+	}
+}
+.callback__form-button {
+	margin: 50px 0 20px 0;
+	button {
+		box-shadow: 0 20px 60px 0 $main-color;
+		&:hover, &:active, &:focus {
+			box-shadow: 0 20px 60px 0 darken($main-color, 10%);
+		}
+	}
+}

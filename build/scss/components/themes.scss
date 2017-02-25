@@ -1,0 +1,45 @@
+.themes {
+	background-color: #555;
+	background-image: url(../img/themes-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 0;
+}
+.themes__wrapper {
+	@extend .container;
+	padding: 80px 0;
+}
+.themes__title {
+	h2 {
+		margin: 0 0 80px 0;
+		text-align: left;
+		font-size: 45px;
+		letter-spacing: 6px;
+		color: $main-color;
+	}
+}
+.themes__box {
+	@extend .clearfix;
+	max-width: 950px;
+}
+.themes__item {
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	span {
+		position: absolute;
+		top: 0;
+		left: 0;
+		color: transparentize($main-color, .9);
+		font-size: 100px;
+		font-weight: 600;
+		font-family: 'MullerRegular';
+	}
+	p {
+		margin: 60px 10px; 
+		color: $white;
+		line-height: 32px;
+
+	}
+}

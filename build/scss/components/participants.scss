@@ -1,0 +1,47 @@
+.participants {
+	background-color: #fff;
+	
+}
+.participants__wrapper {
+	@extend .container;
+	padding: 80px 0;
+}
+.participants__title {
+	margin: 0 0 75px 0;
+	text-align: center;
+	h2 {
+		margin: 0 0 10px 0;
+		font-size: 45px;
+		letter-spacing: 6px;
+		color: $main-color;
+	}
+	span {
+		display: block;
+		font-size: 25px;
+		text-transform: uppercase;
+		letter-spacing: 4px;
+		color: #888;
+		font-family: 'RoomBlack';
+	}
+}
+.participants__box {
+	@extend .clearfix;
+	margin: 0 0 80px 0;
+	text-align: center;
+}
+.participants__item {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 60px 100px;
+}
+
+.participants__button {
+	margin: 0 0 50px 0;
+	text-align: center;
+	a {
+		box-shadow: 0 20px 60px 0 $main-color;
+		&:hover, &:active, &:focus {
+			box-shadow: 0 20px 60px 0 darken($main-color, 10%);
+		}
+	}
+}
